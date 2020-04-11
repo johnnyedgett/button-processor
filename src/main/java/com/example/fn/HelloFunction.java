@@ -10,16 +10,16 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 class RequestObject{ 
-	public String name; 
-	public String message; 
-	@Override public String toString() { return String.format("Name: %s\nMessage: %s", name, message); }
+    public String name; 
+    public String message; 
+    @Override public String toString() { return String.format("Name: %s\nMessage: %s", name, message); }
 }
 
 // TODO: Lombok
 class ResponseObject{ 
-	public String name; public String message; public Long timestamp; 
-	public ResponseObject(String name, String message, Long timestamp) { this.name=name; this.message =message; this.timestamp = timestamp; }
-	@Override public String toString() { return String.format("Name: %s\nMessage: %s\nTime: %d\n", name, message, timestamp); }
+    public String name; public String message; public Long timestamp; 
+    public ResponseObject(String name, String message, Long timestamp) { this.name=name; this.message =message; this.timestamp = timestamp; }
+    @Override public String toString() { return String.format("Name: %s\nMessage: %s\nTime: %d\n", name, message, timestamp); }
 }
 
 public class HelloFunction {

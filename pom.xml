@@ -43,6 +43,23 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>javax.activation</groupId>
+            <artifactId>activation</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.oracle.oci.sdk/oci-java-sdk-common -->
+        <dependency>
+            <groupId>com.oracle.oci.sdk</groupId>
+            <artifactId>oci-java-sdk-common</artifactId>
+            <version>1.15.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.oracle.oci.sdk/oci-java-sdk-nosql -->
+        <dependency>
+            <groupId>com.oracle.oci.sdk</groupId>
+            <artifactId>oci-java-sdk-nosql</artifactId>
+            <version>1.15.4</version>
+        </dependency>
+        <dependency>    
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
